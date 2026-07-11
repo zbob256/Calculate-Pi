@@ -16,10 +16,7 @@ I wanted to include a variety of formulas used to calculate pi, going back hundr
 
 #### [Madhava-Leibniz Series](src/formulas/leibniz.cpp) (14th Century, 17th Century)
 
-$$\pi
-=
-4\sum_{k=0}^{\infty}
-\frac{(-1)^k}{2k+1}$$
+$$\pi = 4\sum_{k=0}^{\infty} \frac{(-1)^k}{2k+1}$$
 
 #### [Wallis Product](src/formulas/wallis.cpp) (1655)
 
