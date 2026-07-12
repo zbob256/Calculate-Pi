@@ -40,7 +40,7 @@ $$\frac{1}{\pi} = \frac{2\sqrt{2}}{9801} \sum_{k=0}^{\infty} \frac{ (4k)!(1103+2
 
 Solving for $\pi$:
 
-$$\pi = \frac{9801}{2\sqrt{2}} \left( \sum_{k=0}^{\infty} \frac{ (4k)!(1103+26390k) }{ k!)^4 396^{4k} } \right)^{-1}$$
+$$\pi = \frac{9801}{2\sqrt{2}} \left( \sum_{k=0}^{\infty} \frac{ (4k)!(1103+26390k) }{ (k!)^4 396^{4k} } \right)^{-1}$$
 
 #### [Chudnovsky Algorithm](src/formulas/chudnovsky.cpp), Original and Rearranged (1988)
 $$\frac{1}{\pi} = 12 \sum_{k=0}^{\infty} \frac{ (-1)^k(6k)!(13591409+545140134k) }{ (3k)!(k!)^3(-640320)^{3k+\frac{3}{2}} }$$
